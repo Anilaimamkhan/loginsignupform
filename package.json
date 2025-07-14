@@ -6,10 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-      "build:gh": "vite build --mode gh-pages",
-  "deploy": "gh-pages -d dist"
+    "build:gh": "vite build --mode gh-pages",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://anilaimamkhan.github.io/loginsignupform",
   "dependencies": {

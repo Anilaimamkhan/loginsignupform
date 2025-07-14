@@ -7,7 +7,7 @@ import Login from "./component/Login";
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/loginsignupform">
     <Routes>
       <Route path="/" element={<SingUp/>}/>
       <Route path="/home" element={<Home/>}/>
