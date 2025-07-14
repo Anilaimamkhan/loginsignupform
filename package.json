@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:gh": "vite build --mode gh-pages",
-    "deploy": "gh-pages -d dist"
+ "dev": "vite",
+  "build": "vite build",
+  "build:gh": "vite build --mode gh-pages",
+  "deploy": "gh-pages -d dist"
   },
   "homepage": "https://anilaimamkhan.github.io/loginsignupform",
   "dependencies": {

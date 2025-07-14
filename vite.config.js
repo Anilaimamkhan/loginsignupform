@@ -10,13 +10,28 @@
 
 
 // vite.config.js
+// import { defineConfig } from 'vite'
+// import react from '@vitejs/plugin-react'
+
+// // Detecting deployment environment
+// const base = process.env.VITE_ENV === 'GH_PAGES' ? '/loginsignupform/' : '/'
+
+// export default defineConfig({
+//   plugins: [react()],
+//   base,
+// })
+
+
+
+
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const isGitHub = process.env.VITE_ENV === 'GH_PAGES'
+const base = process.env.VITE_ENV === 'GH_PAGES' ? '/loginsignupform/' : '/'
 
 export default defineConfig({
   plugins: [react()],
-  base: isGitHub ? '/loginsignupform/' : '/', // Dynamic base
+  base,
 })
 
